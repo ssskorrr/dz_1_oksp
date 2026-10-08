@@ -1,0 +1,13 @@
+.venv/
+.env
+runtime/
+postgresql-binaries.zip
+__pycache__/
+.pytest_cache/
+*.log
+qa/
+capture_app.py
+capture_server.py
+build_report.py
+build_pdf.py
+deliverables/
