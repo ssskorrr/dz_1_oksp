@@ -1,0 +1,1547 @@
+{
+  "initial": {
+    "size": "small",
+    "counts": {
+      "app_users": 1,
+      "services": 10,
+      "specialists": 10,
+      "slots": 500,
+      "bookings": 300
+    },
+    "booking_digest": "28740c170998e764be6cf374f1022f0f"
+  },
+  "reproducible": true,
+  "warmup": 5,
+  "repeats": 30,
+  "added_bookings": 70,
+  "operations": [
+    {
+      "operation": "GET /api/services",
+      "p50": 5.303049983922392,
+      "p95": 26.28359996015206,
+      "max": 29.261099989525974,
+      "server_ms": 2.1464333333333334,
+      "db_ms": 1.2004333333333332,
+      "queries": 2,
+      "samples": [
+        {
+          "wall_ms": 4.547599994111806,
+          "server_ms": 2.13,
+          "db_ms": 1.443,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.763100005220622,
+          "server_ms": 2.173,
+          "db_ms": 1.394,
+          "queries": 2
+        },
+        {
+          "wall_ms": 15.018499980214983,
+          "server_ms": 1.242,
+          "db_ms": 0.65,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.45080000301823,
+          "server_ms": 2.489,
+          "db_ms": 1.702,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.0935999606736,
+          "server_ms": 2.415,
+          "db_ms": 0.951,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.13669999781996,
+          "server_ms": 1.765,
+          "db_ms": 0.863,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.768300023395568,
+          "server_ms": 2.096,
+          "db_ms": 1.193,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.294199974741787,
+          "server_ms": 2.426,
+          "db_ms": 1.763,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.587699997704476,
+          "server_ms": 2.437,
+          "db_ms": 0.863,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.486599984578788,
+          "server_ms": 2.088,
+          "db_ms": 1.368,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.3118999931029975,
+          "server_ms": 2.3,
+          "db_ms": 1.54,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.439599975943565,
+          "server_ms": 2.479,
+          "db_ms": 0.822,
+          "queries": 2
+        },
+        {
+          "wall_ms": 26.28359996015206,
+          "server_ms": 1.518,
+          "db_ms": 0.77,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.939299997407943,
+          "server_ms": 2.755,
+          "db_ms": 0.787,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.347499973140657,
+          "server_ms": 2.591,
+          "db_ms": 1.855,
+          "queries": 2
+        },
+        {
+          "wall_ms": 18.51829997031018,
+          "server_ms": 1.26,
+          "db_ms": 0.582,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.691099980846047,
+          "server_ms": 2.292,
+          "db_ms": 0.923,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.181199998129159,
+          "server_ms": 1.811,
+          "db_ms": 1.234,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.411000001709908,
+          "server_ms": 1.898,
+          "db_ms": 1.308,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.224900029134005,
+          "server_ms": 2.245,
+          "db_ms": 0.694,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.9510000282898545,
+          "server_ms": 2.828,
+          "db_ms": 2.078,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.6600000243633986,
+          "server_ms": 2.446,
+          "db_ms": 0.916,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.11160003952682,
+          "server_ms": 2.519,
+          "db_ms": 1.781,
+          "queries": 2
+        },
+        {
+          "wall_ms": 3.844299993943423,
+          "server_ms": 1.618,
+          "db_ms": 1.09,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.3184999958612025,
+          "server_ms": 1.893,
+          "db_ms": 1.33,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.053000011481345,
+          "server_ms": 1.904,
+          "db_ms": 1.328,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.992300004232675,
+          "server_ms": 2.43,
+          "db_ms": 1.658,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.648600006476045,
+          "server_ms": 2.116,
+          "db_ms": 1.513,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.349499988369644,
+          "server_ms": 2.9,
+          "db_ms": 0.952,
+          "queries": 2
+        },
+        {
+          "wall_ms": 29.261099989525974,
+          "server_ms": 1.329,
+          "db_ms": 0.662,
+          "queries": 2
+        }
+      ]
+    },
+    {
+      "operation": "GET /api/specialists",
+      "p50": 4.5826000277884305,
+      "p95": 25.41679999558255,
+      "max": 26.966199977323413,
+      "server_ms": 1.6333,
+      "db_ms": 0.9129666666666667,
+      "queries": 2,
+      "samples": [
+        {
+          "wall_ms": 4.343799955677241,
+          "server_ms": 2.033,
+          "db_ms": 1.47,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.576300038024783,
+          "server_ms": 2.034,
+          "db_ms": 1.327,
+          "queries": 2
+        },
+        {
+          "wall_ms": 20.81950003048405,
+          "server_ms": 1.096,
+          "db_ms": 0.526,
+          "queries": 2
+        },
+        {
+          "wall_ms": 3.599099989514798,
+          "server_ms": 1.407,
+          "db_ms": 0.944,
+          "queries": 2
+        },
+        {
+          "wall_ms": 26.966199977323413,
+          "server_ms": 1.105,
+          "db_ms": 0.549,
+          "queries": 2
+        },
+        {
+          "wall_ms": 16.202100028749555,
+          "server_ms": 1.464,
+          "db_ms": 0.72,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.430400011595339,
+          "server_ms": 1.889,
+          "db_ms": 0.71,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.155600036028773,
+          "server_ms": 1.88,
+          "db_ms": 1.336,
+          "queries": 2
+        },
+        {
+          "wall_ms": 18.21810001274571,
+          "server_ms": 1.295,
+          "db_ms": 0.707,
+          "queries": 2
+        },
+        {
+          "wall_ms": 3.7662999820895493,
+          "server_ms": 1.55,
+          "db_ms": 0.547,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.295000049751252,
+          "server_ms": 1.922,
+          "db_ms": 1.464,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.588900017552078,
+          "server_ms": 1.934,
+          "db_ms": 1.249,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.006099982187152,
+          "server_ms": 3.154,
+          "db_ms": 2.22,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.77970001520589,
+          "server_ms": 2.162,
+          "db_ms": 0.821,
+          "queries": 2
+        },
+        {
+          "wall_ms": 3.644599986728281,
+          "server_ms": 1.501,
+          "db_ms": 1.018,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.158199997618794,
+          "server_ms": 1.14,
+          "db_ms": 0.593,
+          "queries": 2
+        },
+        {
+          "wall_ms": 13.664100028108805,
+          "server_ms": 1.217,
+          "db_ms": 0.568,
+          "queries": 2
+        },
+        {
+          "wall_ms": 15.563900000415742,
+          "server_ms": 1.17,
+          "db_ms": 0.609,
+          "queries": 2
+        },
+        {
+          "wall_ms": 15.282100008334965,
+          "server_ms": 1.464,
+          "db_ms": 0.772,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.251799953635782,
+          "server_ms": 1.961,
+          "db_ms": 0.699,
+          "queries": 2
+        },
+        {
+          "wall_ms": 24.943700002040714,
+          "server_ms": 1.023,
+          "db_ms": 0.543,
+          "queries": 2
+        },
+        {
+          "wall_ms": 15.47400001436472,
+          "server_ms": 1.267,
+          "db_ms": 0.59,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.137400013860315,
+          "server_ms": 1.662,
+          "db_ms": 0.534,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.0642000385560095,
+          "server_ms": 1.843,
+          "db_ms": 1.264,
+          "queries": 2
+        },
+        {
+          "wall_ms": 22.094800020568073,
+          "server_ms": 1.51,
+          "db_ms": 0.827,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.114200011827052,
+          "server_ms": 1.69,
+          "db_ms": 1.143,
+          "queries": 2
+        },
+        {
+          "wall_ms": 25.41679999558255,
+          "server_ms": 1.549,
+          "db_ms": 0.719,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.043499997351319,
+          "server_ms": 1.811,
+          "db_ms": 1.324,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.235600004903972,
+          "server_ms": 1.894,
+          "db_ms": 0.671,
+          "queries": 2
+        },
+        {
+          "wall_ms": 3.673099970910698,
+          "server_ms": 1.372,
+          "db_ms": 0.925,
+          "queries": 2
+        }
+      ]
+    },
+    {
+      "operation": "GET /api/bookings",
+      "p50": 7.22729999688454,
+      "p95": 23.317000013776124,
+      "max": 30.28100001392886,
+      "server_ms": 3.8960333333333335,
+      "db_ms": 2.2214666666666667,
+      "queries": 3,
+      "samples": [
+        {
+          "wall_ms": 17.734399996697903,
+          "server_ms": 2.895,
+          "db_ms": 1.815,
+          "queries": 3
+        },
+        {
+          "wall_ms": 6.7882000003010035,
+          "server_ms": 3.579,
+          "db_ms": 1.848,
+          "queries": 3
+        },
+        {
+          "wall_ms": 6.0538999969139695,
+          "server_ms": 3.704,
+          "db_ms": 1.998,
+          "queries": 3
+        },
+        {
+          "wall_ms": 16.064600029494613,
+          "server_ms": 2.537,
+          "db_ms": 1.555,
+          "queries": 3
+        },
+        {
+          "wall_ms": 30.28100001392886,
+          "server_ms": 2.728,
+          "db_ms": 1.627,
+          "queries": 3
+        },
+        {
+          "wall_ms": 14.329599973279983,
+          "server_ms": 2.943,
+          "db_ms": 1.705,
+          "queries": 3
+        },
+        {
+          "wall_ms": 7.082600030116737,
+          "server_ms": 4.739,
+          "db_ms": 3.458,
+          "queries": 3
+        },
+        {
+          "wall_ms": 7.7396000269800425,
+          "server_ms": 4.618,
+          "db_ms": 2.788,
+          "queries": 3
+        },
+        {
+          "wall_ms": 8.254799991846085,
+          "server_ms": 4.988,
+          "db_ms": 2.599,
+          "queries": 3
+        },
+        {
+          "wall_ms": 23.317000013776124,
+          "server_ms": 3.202,
+          "db_ms": 1.921,
+          "queries": 3
+        },
+        {
+          "wall_ms": 6.305999995674938,
+          "server_ms": 3.766,
+          "db_ms": 1.953,
+          "queries": 3
+        },
+        {
+          "wall_ms": 7.479599968064576,
+          "server_ms": 4.287,
+          "db_ms": 1.814,
+          "queries": 3
+        },
+        {
+          "wall_ms": 6.487700040452182,
+          "server_ms": 3.759,
+          "db_ms": 2.622,
+          "queries": 3
+        },
+        {
+          "wall_ms": 6.566199997905642,
+          "server_ms": 3.35,
+          "db_ms": 1.624,
+          "queries": 3
+        },
+        {
+          "wall_ms": 8.396499964874238,
+          "server_ms": 4.998,
+          "db_ms": 2.622,
+          "queries": 3
+        },
+        {
+          "wall_ms": 8.181600016541779,
+          "server_ms": 5.067,
+          "db_ms": 2.547,
+          "queries": 3
+        },
+        {
+          "wall_ms": 6.4403999713249505,
+          "server_ms": 3.899,
+          "db_ms": 1.855,
+          "queries": 3
+        },
+        {
+          "wall_ms": 5.919300019741058,
+          "server_ms": 3.215,
+          "db_ms": 1.651,
+          "queries": 3
+        },
+        {
+          "wall_ms": 6.0254999552853405,
+          "server_ms": 3.599,
+          "db_ms": 1.845,
+          "queries": 3
+        },
+        {
+          "wall_ms": 6.207600003108382,
+          "server_ms": 3.441,
+          "db_ms": 1.564,
+          "queries": 3
+        },
+        {
+          "wall_ms": 7.126599957700819,
+          "server_ms": 4.13,
+          "db_ms": 2.83,
+          "queries": 3
+        },
+        {
+          "wall_ms": 7.2672999813221395,
+          "server_ms": 4.099,
+          "db_ms": 2.837,
+          "queries": 3
+        },
+        {
+          "wall_ms": 8.299199980683625,
+          "server_ms": 5.064,
+          "db_ms": 3.34,
+          "queries": 3
+        },
+        {
+          "wall_ms": 7.1561000077053905,
+          "server_ms": 4.034,
+          "db_ms": 2.04,
+          "queries": 3
+        },
+        {
+          "wall_ms": 22.84459996735677,
+          "server_ms": 4.016,
+          "db_ms": 2.612,
+          "queries": 3
+        },
+        {
+          "wall_ms": 6.6862000385299325,
+          "server_ms": 3.471,
+          "db_ms": 1.616,
+          "queries": 3
+        },
+        {
+          "wall_ms": 6.640199979301542,
+          "server_ms": 3.889,
+          "db_ms": 1.943,
+          "queries": 3
+        },
+        {
+          "wall_ms": 16.38799998909235,
+          "server_ms": 3.141,
+          "db_ms": 1.979,
+          "queries": 3
+        },
+        {
+          "wall_ms": 7.18730001244694,
+          "server_ms": 4.311,
+          "db_ms": 3.044,
+          "queries": 3
+        },
+        {
+          "wall_ms": 8.635700040031224,
+          "server_ms": 5.412,
+          "db_ms": 2.992,
+          "queries": 3
+        }
+      ]
+    },
+    {
+      "operation": "GET /api/bookings/{id}",
+      "p50": 6.154700007755309,
+      "p95": 25.813699990976602,
+      "max": 26.503600005526096,
+      "server_ms": 2.4377333333333335,
+      "db_ms": 1.5199,
+      "queries": 2,
+      "samples": [
+        {
+          "wall_ms": 4.843600036110729,
+          "server_ms": 2.305,
+          "db_ms": 1.575,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.59600000269711,
+          "server_ms": 2.678,
+          "db_ms": 1.68,
+          "queries": 2
+        },
+        {
+          "wall_ms": 18.987199990078807,
+          "server_ms": 2.289,
+          "db_ms": 1.447,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.195699970703572,
+          "server_ms": 3.056,
+          "db_ms": 2.067,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.807500030845404,
+          "server_ms": 3.505,
+          "db_ms": 1.756,
+          "queries": 2
+        },
+        {
+          "wall_ms": 7.090999977663159,
+          "server_ms": 3.486,
+          "db_ms": 2.614,
+          "queries": 2
+        },
+        {
+          "wall_ms": 25.813699990976602,
+          "server_ms": 2.212,
+          "db_ms": 1.415,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.945799999404699,
+          "server_ms": 2.334,
+          "db_ms": 1.558,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.980599973350763,
+          "server_ms": 2.232,
+          "db_ms": 1.582,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.132300011813641,
+          "server_ms": 2.728,
+          "db_ms": 1.817,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.6846999689005315,
+          "server_ms": 2.94,
+          "db_ms": 2.178,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.969000001437962,
+          "server_ms": 2.402,
+          "db_ms": 1.082,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.934700031299144,
+          "server_ms": 2.426,
+          "db_ms": 1.844,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.414400016888976,
+          "server_ms": 2.713,
+          "db_ms": 2.029,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.7538999719545245,
+          "server_ms": 3.406,
+          "db_ms": 1.452,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.450600012205541,
+          "server_ms": 2.164,
+          "db_ms": 1.551,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.935200035106391,
+          "server_ms": 2.575,
+          "db_ms": 1.9,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.265200055669993,
+          "server_ms": 1.705,
+          "db_ms": 1.029,
+          "queries": 2
+        },
+        {
+          "wall_ms": 15.516599989496171,
+          "server_ms": 1.693,
+          "db_ms": 0.987,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.124300019815564,
+          "server_ms": 2.644,
+          "db_ms": 1.945,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.766000016592443,
+          "server_ms": 2.802,
+          "db_ms": 1.118,
+          "queries": 2
+        },
+        {
+          "wall_ms": 18.829300010111183,
+          "server_ms": 1.77,
+          "db_ms": 1.133,
+          "queries": 2
+        },
+        {
+          "wall_ms": 16.80750004015863,
+          "server_ms": 2.505,
+          "db_ms": 1.477,
+          "queries": 2
+        },
+        {
+          "wall_ms": 14.753499999642372,
+          "server_ms": 2.178,
+          "db_ms": 1.318,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.177100003696978,
+          "server_ms": 2.811,
+          "db_ms": 1.322,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.797400022856891,
+          "server_ms": 2.399,
+          "db_ms": 0.971,
+          "queries": 2
+        },
+        {
+          "wall_ms": 17.6472999737598,
+          "server_ms": 1.785,
+          "db_ms": 1.109,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.085100023075938,
+          "server_ms": 1.938,
+          "db_ms": 1.436,
+          "queries": 2
+        },
+        {
+          "wall_ms": 26.503600005526096,
+          "server_ms": 1.546,
+          "db_ms": 0.926,
+          "queries": 2
+        },
+        {
+          "wall_ms": 15.30210004420951,
+          "server_ms": 1.905,
+          "db_ms": 1.279,
+          "queries": 2
+        }
+      ]
+    },
+    {
+      "operation": "GET /api/slots",
+      "p50": 7.6478999690152705,
+      "p95": 29.293600004166365,
+      "max": 32.03509998274967,
+      "server_ms": 4.4188,
+      "db_ms": 3.1605,
+      "queries": 5,
+      "samples": [
+        {
+          "wall_ms": 7.510299968998879,
+          "server_ms": 4.515,
+          "db_ms": 2.704,
+          "queries": 5
+        },
+        {
+          "wall_ms": 8.859699999447912,
+          "server_ms": 5.862,
+          "db_ms": 4.637,
+          "queries": 5
+        },
+        {
+          "wall_ms": 6.7384999711066484,
+          "server_ms": 4.235,
+          "db_ms": 3.239,
+          "queries": 5
+        },
+        {
+          "wall_ms": 6.61829998716712,
+          "server_ms": 4.453,
+          "db_ms": 3.398,
+          "queries": 5
+        },
+        {
+          "wall_ms": 8.295099949464202,
+          "server_ms": 5.763,
+          "db_ms": 3.917,
+          "queries": 5
+        },
+        {
+          "wall_ms": 23.240900016389787,
+          "server_ms": 3.907,
+          "db_ms": 2.922,
+          "queries": 5
+        },
+        {
+          "wall_ms": 8.848599973134696,
+          "server_ms": 5.842,
+          "db_ms": 3.904,
+          "queries": 5
+        },
+        {
+          "wall_ms": 7.208499999251217,
+          "server_ms": 4.57,
+          "db_ms": 3.521,
+          "queries": 5
+        },
+        {
+          "wall_ms": 6.872300000395626,
+          "server_ms": 4.468,
+          "db_ms": 2.818,
+          "queries": 5
+        },
+        {
+          "wall_ms": 5.604700010735542,
+          "server_ms": 3.422,
+          "db_ms": 2.533,
+          "queries": 5
+        },
+        {
+          "wall_ms": 5.746000038925558,
+          "server_ms": 3.575,
+          "db_ms": 2.175,
+          "queries": 5
+        },
+        {
+          "wall_ms": 25.5277999676764,
+          "server_ms": 3.638,
+          "db_ms": 2.601,
+          "queries": 5
+        },
+        {
+          "wall_ms": 6.780399999115616,
+          "server_ms": 4.398,
+          "db_ms": 2.853,
+          "queries": 5
+        },
+        {
+          "wall_ms": 23.06679997127503,
+          "server_ms": 3.225,
+          "db_ms": 2.324,
+          "queries": 5
+        },
+        {
+          "wall_ms": 6.413600000087172,
+          "server_ms": 4.004,
+          "db_ms": 3.135,
+          "queries": 5
+        },
+        {
+          "wall_ms": 6.9071000325493515,
+          "server_ms": 4.604,
+          "db_ms": 3.663,
+          "queries": 5
+        },
+        {
+          "wall_ms": 6.444200000260025,
+          "server_ms": 4.219,
+          "db_ms": 2.608,
+          "queries": 5
+        },
+        {
+          "wall_ms": 6.266199983656406,
+          "server_ms": 3.823,
+          "db_ms": 2.449,
+          "queries": 5
+        },
+        {
+          "wall_ms": 21.59750001737848,
+          "server_ms": 4.709,
+          "db_ms": 3.388,
+          "queries": 5
+        },
+        {
+          "wall_ms": 7.785499969031662,
+          "server_ms": 4.832,
+          "db_ms": 3.023,
+          "queries": 5
+        },
+        {
+          "wall_ms": 21.868000039830804,
+          "server_ms": 4.851,
+          "db_ms": 3.683,
+          "queries": 5
+        },
+        {
+          "wall_ms": 29.293600004166365,
+          "server_ms": 3.648,
+          "db_ms": 2.704,
+          "queries": 5
+        },
+        {
+          "wall_ms": 6.431000016164035,
+          "server_ms": 4.313,
+          "db_ms": 3.489,
+          "queries": 5
+        },
+        {
+          "wall_ms": 8.133600000292063,
+          "server_ms": 5.353,
+          "db_ms": 4.175,
+          "queries": 5
+        },
+        {
+          "wall_ms": 32.03509998274967,
+          "server_ms": 4.403,
+          "db_ms": 3.387,
+          "queries": 5
+        },
+        {
+          "wall_ms": 8.136199961882085,
+          "server_ms": 5.066,
+          "db_ms": 3.281,
+          "queries": 5
+        },
+        {
+          "wall_ms": 20.41530003771186,
+          "server_ms": 4.08,
+          "db_ms": 3.035,
+          "queries": 5
+        },
+        {
+          "wall_ms": 6.731899979058653,
+          "server_ms": 4.158,
+          "db_ms": 3.217,
+          "queries": 5
+        },
+        {
+          "wall_ms": 7.058900024276227,
+          "server_ms": 4.688,
+          "db_ms": 3.101,
+          "queries": 5
+        },
+        {
+          "wall_ms": 16.253700014203787,
+          "server_ms": 3.94,
+          "db_ms": 2.931,
+          "queries": 5
+        }
+      ]
+    },
+    {
+      "operation": "GET /api/summary",
+      "p50": 8.18814997910522,
+      "p95": 29.61580001283437,
+      "max": 31.260900024790317,
+      "server_ms": 4.180733333333333,
+      "db_ms": 2.9763333333333333,
+      "queries": 2,
+      "samples": [
+        {
+          "wall_ms": 31.260900024790317,
+          "server_ms": 4.227,
+          "db_ms": 3.062,
+          "queries": 2
+        },
+        {
+          "wall_ms": 8.317400002852082,
+          "server_ms": 4.79,
+          "db_ms": 2.826,
+          "queries": 2
+        },
+        {
+          "wall_ms": 8.533599961083382,
+          "server_ms": 5.171,
+          "db_ms": 4.191,
+          "queries": 2
+        },
+        {
+          "wall_ms": 7.999999972525984,
+          "server_ms": 4.157,
+          "db_ms": 2.432,
+          "queries": 2
+        },
+        {
+          "wall_ms": 18.980299995746464,
+          "server_ms": 3.212,
+          "db_ms": 2.469,
+          "queries": 2
+        },
+        {
+          "wall_ms": 7.258199970237911,
+          "server_ms": 4.447,
+          "db_ms": 3.615,
+          "queries": 2
+        },
+        {
+          "wall_ms": 24.51900002779439,
+          "server_ms": 3.889,
+          "db_ms": 3.039,
+          "queries": 2
+        },
+        {
+          "wall_ms": 9.467099967878312,
+          "server_ms": 5.622,
+          "db_ms": 4.553,
+          "queries": 2
+        },
+        {
+          "wall_ms": 7.504099979996681,
+          "server_ms": 4.189,
+          "db_ms": 2.552,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.02859997889027,
+          "server_ms": 3.344,
+          "db_ms": 2.665,
+          "queries": 2
+        },
+        {
+          "wall_ms": 22.025300015229732,
+          "server_ms": 3.439,
+          "db_ms": 2.461,
+          "queries": 2
+        },
+        {
+          "wall_ms": 7.252299983520061,
+          "server_ms": 4.274,
+          "db_ms": 3.499,
+          "queries": 2
+        },
+        {
+          "wall_ms": 22.632500040344894,
+          "server_ms": 3.429,
+          "db_ms": 2.503,
+          "queries": 2
+        },
+        {
+          "wall_ms": 8.152799971867353,
+          "server_ms": 4.824,
+          "db_ms": 2.874,
+          "queries": 2
+        },
+        {
+          "wall_ms": 7.805600005667657,
+          "server_ms": 4.732,
+          "db_ms": 2.842,
+          "queries": 2
+        },
+        {
+          "wall_ms": 29.61580001283437,
+          "server_ms": 3.595,
+          "db_ms": 2.744,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.533299980219454,
+          "server_ms": 3.732,
+          "db_ms": 2.883,
+          "queries": 2
+        },
+        {
+          "wall_ms": 25.83040000172332,
+          "server_ms": 4.858,
+          "db_ms": 3.718,
+          "queries": 2
+        },
+        {
+          "wall_ms": 28.33300002384931,
+          "server_ms": 4.011,
+          "db_ms": 3.277,
+          "queries": 2
+        },
+        {
+          "wall_ms": 8.223499986343086,
+          "server_ms": 4.47,
+          "db_ms": 2.854,
+          "queries": 2
+        },
+        {
+          "wall_ms": 7.729100005235523,
+          "server_ms": 4.236,
+          "db_ms": 3.377,
+          "queries": 2
+        },
+        {
+          "wall_ms": 29.290399979799986,
+          "server_ms": 2.843,
+          "db_ms": 2.136,
+          "queries": 2
+        },
+        {
+          "wall_ms": 16.538699972443283,
+          "server_ms": 3.471,
+          "db_ms": 2.69,
+          "queries": 2
+        },
+        {
+          "wall_ms": 8.725899970158935,
+          "server_ms": 5.012,
+          "db_ms": 2.811,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.88649999210611,
+          "server_ms": 3.902,
+          "db_ms": 2.499,
+          "queries": 2
+        },
+        {
+          "wall_ms": 7.041800010483712,
+          "server_ms": 4.18,
+          "db_ms": 2.376,
+          "queries": 2
+        },
+        {
+          "wall_ms": 7.939500035718083,
+          "server_ms": 4.663,
+          "db_ms": 2.728,
+          "queries": 2
+        },
+        {
+          "wall_ms": 7.421600050292909,
+          "server_ms": 4.608,
+          "db_ms": 3.658,
+          "queries": 2
+        },
+        {
+          "wall_ms": 7.059100025799125,
+          "server_ms": 4.274,
+          "db_ms": 3.551,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.691100017633289,
+          "server_ms": 3.821,
+          "db_ms": 2.405,
+          "queries": 2
+        }
+      ]
+    },
+    {
+      "operation": "POST /api/bookings",
+      "p50": 9.081900003366172,
+      "p95": 22.52060000319034,
+      "max": 28.378200018778443,
+      "server_ms": 4.6481,
+      "db_ms": 2.7931,
+      "queries": 7,
+      "samples": [
+        {
+          "wall_ms": 9.881799982395023,
+          "server_ms": 6.05,
+          "db_ms": 4.132,
+          "queries": 7
+        },
+        {
+          "wall_ms": 6.971299997530878,
+          "server_ms": 4.611,
+          "db_ms": 3.251,
+          "queries": 7
+        },
+        {
+          "wall_ms": 6.980899954214692,
+          "server_ms": 4.509,
+          "db_ms": 3.053,
+          "queries": 7
+        },
+        {
+          "wall_ms": 19.483799987938255,
+          "server_ms": 3.965,
+          "db_ms": 2.091,
+          "queries": 7
+        },
+        {
+          "wall_ms": 6.71470002271235,
+          "server_ms": 4.429,
+          "db_ms": 2.713,
+          "queries": 7
+        },
+        {
+          "wall_ms": 8.562900009565055,
+          "server_ms": 6.275,
+          "db_ms": 4.216,
+          "queries": 7
+        },
+        {
+          "wall_ms": 7.1841999888420105,
+          "server_ms": 4.441,
+          "db_ms": 2.866,
+          "queries": 7
+        },
+        {
+          "wall_ms": 22.52060000319034,
+          "server_ms": 3.492,
+          "db_ms": 2.026,
+          "queries": 7
+        },
+        {
+          "wall_ms": 17.371299967635423,
+          "server_ms": 3.215,
+          "db_ms": 1.667,
+          "queries": 7
+        },
+        {
+          "wall_ms": 5.815599986817688,
+          "server_ms": 3.6,
+          "db_ms": 2.34,
+          "queries": 7
+        },
+        {
+          "wall_ms": 7.879900047555566,
+          "server_ms": 5.398,
+          "db_ms": 3.407,
+          "queries": 7
+        },
+        {
+          "wall_ms": 17.89930002996698,
+          "server_ms": 2.916,
+          "db_ms": 1.538,
+          "queries": 7
+        },
+        {
+          "wall_ms": 8.67479998851195,
+          "server_ms": 5.821,
+          "db_ms": 3.188,
+          "queries": 7
+        },
+        {
+          "wall_ms": 28.378200018778443,
+          "server_ms": 3.042,
+          "db_ms": 1.647,
+          "queries": 7
+        },
+        {
+          "wall_ms": 18.789299996569753,
+          "server_ms": 3.697,
+          "db_ms": 1.734,
+          "queries": 7
+        },
+        {
+          "wall_ms": 7.967000012286007,
+          "server_ms": 5.357,
+          "db_ms": 3.63,
+          "queries": 7
+        },
+        {
+          "wall_ms": 18.733200035057962,
+          "server_ms": 4.568,
+          "db_ms": 2.493,
+          "queries": 7
+        },
+        {
+          "wall_ms": 18.750699993688613,
+          "server_ms": 4.553,
+          "db_ms": 2.413,
+          "queries": 7
+        },
+        {
+          "wall_ms": 10.173399990890175,
+          "server_ms": 6.667,
+          "db_ms": 4.621,
+          "queries": 7
+        },
+        {
+          "wall_ms": 22.30249997228384,
+          "server_ms": 3.924,
+          "db_ms": 1.96,
+          "queries": 7
+        },
+        {
+          "wall_ms": 9.489000018220395,
+          "server_ms": 6.411,
+          "db_ms": 3.758,
+          "queries": 7
+        },
+        {
+          "wall_ms": 10.530200030189008,
+          "server_ms": 7.049,
+          "db_ms": 4.891,
+          "queries": 7
+        },
+        {
+          "wall_ms": 8.06429999647662,
+          "server_ms": 5.095,
+          "db_ms": 3.521,
+          "queries": 7
+        },
+        {
+          "wall_ms": 6.752899964340031,
+          "server_ms": 4.108,
+          "db_ms": 2.294,
+          "queries": 7
+        },
+        {
+          "wall_ms": 5.447800038382411,
+          "server_ms": 2.789,
+          "db_ms": 1.47,
+          "queries": 7
+        },
+        {
+          "wall_ms": 7.143499969970435,
+          "server_ms": 4.635,
+          "db_ms": 2.487,
+          "queries": 7
+        },
+        {
+          "wall_ms": 10.241599986329675,
+          "server_ms": 6.869,
+          "db_ms": 3.803,
+          "queries": 7
+        },
+        {
+          "wall_ms": 6.5870999824255705,
+          "server_ms": 3.994,
+          "db_ms": 2.039,
+          "queries": 7
+        },
+        {
+          "wall_ms": 17.565199988894165,
+          "server_ms": 3.722,
+          "db_ms": 2.095,
+          "queries": 7
+        },
+        {
+          "wall_ms": 7.0519999717362225,
+          "server_ms": 4.241,
+          "db_ms": 2.449,
+          "queries": 7
+        }
+      ]
+    },
+    {
+      "operation": "POST /api/bookings/{id}/cancel",
+      "p50": 5.8029500069096684,
+      "p95": 26.589800021611154,
+      "max": 27.6261999970302,
+      "server_ms": 2.0486,
+      "db_ms": 0.8273,
+      "queries": 2,
+      "samples": [
+        {
+          "wall_ms": 26.0067000053823,
+          "server_ms": 2.003,
+          "db_ms": 0.71,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.431699973996729,
+          "server_ms": 2.755,
+          "db_ms": 0.682,
+          "queries": 2
+        },
+        {
+          "wall_ms": 27.6261999970302,
+          "server_ms": 1.293,
+          "db_ms": 0.47,
+          "queries": 2
+        },
+        {
+          "wall_ms": 23.29370001098141,
+          "server_ms": 1.401,
+          "db_ms": 0.532,
+          "queries": 2
+        },
+        {
+          "wall_ms": 3.6016000085510314,
+          "server_ms": 1.143,
+          "db_ms": 0.472,
+          "queries": 2
+        },
+        {
+          "wall_ms": 17.24130002548918,
+          "server_ms": 1.41,
+          "db_ms": 0.526,
+          "queries": 2
+        },
+        {
+          "wall_ms": 24.57559999311343,
+          "server_ms": 1.641,
+          "db_ms": 0.632,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.684399988036603,
+          "server_ms": 2.413,
+          "db_ms": 1.474,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.457900009583682,
+          "server_ms": 2.151,
+          "db_ms": 0.568,
+          "queries": 2
+        },
+        {
+          "wall_ms": 24.92199995322153,
+          "server_ms": 1.485,
+          "db_ms": 0.494,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.709300003014505,
+          "server_ms": 2.07,
+          "db_ms": 0.559,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.185299949720502,
+          "server_ms": 3.064,
+          "db_ms": 1.787,
+          "queries": 2
+        },
+        {
+          "wall_ms": 3.976200008764863,
+          "server_ms": 1.749,
+          "db_ms": 0.492,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.070800030604005,
+          "server_ms": 1.971,
+          "db_ms": 1.098,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.188899998553097,
+          "server_ms": 2.0,
+          "db_ms": 1.157,
+          "queries": 2
+        },
+        {
+          "wall_ms": 25.287399999797344,
+          "server_ms": 2.408,
+          "db_ms": 1.231,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.5757000227458775,
+          "server_ms": 2.634,
+          "db_ms": 0.848,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.185000027064234,
+          "server_ms": 1.971,
+          "db_ms": 0.535,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.163700039498508,
+          "server_ms": 2.034,
+          "db_ms": 0.595,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.782099975273013,
+          "server_ms": 2.417,
+          "db_ms": 0.722,
+          "queries": 2
+        },
+        {
+          "wall_ms": 25.208699982613325,
+          "server_ms": 1.873,
+          "db_ms": 0.687,
+          "queries": 2
+        },
+        {
+          "wall_ms": 5.076100002042949,
+          "server_ms": 2.724,
+          "db_ms": 1.671,
+          "queries": 2
+        },
+        {
+          "wall_ms": 22.872300003655255,
+          "server_ms": 1.43,
+          "db_ms": 0.504,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.395499978680164,
+          "server_ms": 3.806,
+          "db_ms": 2.606,
+          "queries": 2
+        },
+        {
+          "wall_ms": 23.21680000750348,
+          "server_ms": 1.88,
+          "db_ms": 0.775,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.093699972145259,
+          "server_ms": 1.796,
+          "db_ms": 0.5,
+          "queries": 2
+        },
+        {
+          "wall_ms": 26.589800021611154,
+          "server_ms": 1.251,
+          "db_ms": 0.478,
+          "queries": 2
+        },
+        {
+          "wall_ms": 6.030199991073459,
+          "server_ms": 2.949,
+          "db_ms": 0.804,
+          "queries": 2
+        },
+        {
+          "wall_ms": 25.11769998818636,
+          "server_ms": 1.607,
+          "db_ms": 0.627,
+          "queries": 2
+        },
+        {
+          "wall_ms": 4.2730000568553805,
+          "server_ms": 2.129,
+          "db_ms": 0.583,
+          "queries": 2
+        }
+      ]
+    }
+  ]
+}
